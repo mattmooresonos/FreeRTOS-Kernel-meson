@@ -68,7 +68,7 @@
 
 /* Required if struct _reent is used. */
     #if ( configUSE_NEWLIB_REENTRANT == 1 )
-        #include <reent.h>
+        #include <sys/reent.h>
     #endif
 
 /*
