@@ -15,6 +15,15 @@ FreeRTOS_src = files(
     'tasks.c',
     'timers.c',
     'portable/'+port+'/port.c'
+    'portable/'+port+'/port.c',
+    'portable/'+port+'/portclib.c',
+    'portable/'+port+'/xtensa_init.c',
+    'portable/'+port+'/xtemsa_initr.c',
+    'portable/'+port+'/xtemsa_overlay_os_hook.c',
+    'portable/'+port+'/portasm.S',
+    'portable/'+port+'/xtensa_context.S',
+    'portable/'+port+'/xtensa_intr_asm.S',
+    'portable/'+port+'/xtensa_vectors.S',
     )
     
 deps = []
