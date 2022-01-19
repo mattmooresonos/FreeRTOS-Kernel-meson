@@ -14,7 +14,6 @@ FreeRTOS_src = files(
     'stream_buffer.c',
     'tasks.c',
     'timers.c',
-    'portable/'+port+'/port.c'
     'portable/'+port+'/port.c',
     'portable/'+port+'/portclib.c',
     'portable/'+port+'/xtensa_init.c',
