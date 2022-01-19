@@ -17,7 +17,7 @@ FreeRTOS_src = files(
     'portable/'+port+'/port.c',
     'portable/'+port+'/portclib.c',
     'portable/'+port+'/xtensa_init.c',
-    'portable/'+port+'/xtemsa_initr.c',
+    'portable/'+port+'/xtemsa_intr.c',
     'portable/'+port+'/xtemsa_overlay_os_hook.c',
     'portable/'+port+'/portasm.S',
     'portable/'+port+'/xtensa_context.S',
